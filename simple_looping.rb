@@ -31,8 +31,8 @@ def until_iterator(number_of_times)
   end
 end
 
-def for_iterator(number_of_times)
-  for count 1..7
+def for_iterator(number_of_times = 1..7)
+  for count in number_of_times
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
