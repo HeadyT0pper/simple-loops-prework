@@ -26,8 +26,8 @@ end
 def until_iterator(number_of_times)
   count = 0
     until count == number_of_times
-    puts = "Welcome to Flatiron School's Web Development Course!"
     count += 1
+    puts = "Welcome to Flatiron School's Web Development Course!"
   end
 end
 
